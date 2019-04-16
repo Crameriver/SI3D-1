@@ -1,0 +1,23 @@
+{
+  "name": "si3d",
+  "version": "1.0.0",
+  "description": "Semaine intensive 3D",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalducciVictor/SI3D.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BalducciVictor/SI3D/issues"
+  },
+  "homepage": "https://github.com/BalducciVictor/SI3D#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
