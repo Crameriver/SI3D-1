@@ -4,12 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../styles.scss">
+    <link rel="stylesheet" href="../src/scss/styles.scss">
     <title>SchoolMe</title>
 </head>
 <body>
-    <a href="../pages/project.html" class="">Lancez un projet</a>
-    <a href="../pages/mapProject.html" class="">Soutenez</a>
+    <header class="menu">
+        <ul class="menu__ul">
+					<li class="logo">School Me</li>
+					<li>Soutenez</li>
+					<li>Lancer un projet</li>
+					<li>A propos</li>
+					<li>Mon compte</li>
+				</ul>
+		</header>
+    <a href="../src/pages/project.html" class="">Lancez un projet</a>
+		<a href="../src/pages/mapProject.html" class="">Soutenez</a>
+		
+
+		<footer>
+			<section class="bgWhite">
+				<p class="bgWhite__text">Restons connectés !</p>
+				<ul>
+					<li><img src="../src/assets/twitter.svg" alt="logoTwitter" class="bgWhite__img"/></li>
+					<li><img src="../src/assets/instagram.svg" alt="logoInstagram" class="bgWhite__img"/></li>
+					<li><img src="../src/assets/facebook.svg" alt="logoFacebook" class="bgWhite__img"/></li>
+					<li><img src="../src/assets/youtube.svg" alt="logoYoutube" class="bgWhite__img"/></li>
+				</ul>
+				<div class="bgWhite__line"></div>
+				<p class="bgWhite__text">Suivez nos actions</p>
+				<form>
+					<input type="email" id="mail" name="user_mail" placeholder="Votre E-mail ici">
+				</form>
+			</section>
+			<section class="bgBlack">
+
+			</section>
+		</footer>
     <script defer src="js/script.js"></script>
 </body>
 </html>

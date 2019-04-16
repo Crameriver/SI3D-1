@@ -1,0 +1,37 @@
+.menu {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    color: #A6D1A1;
+    .menu__ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+        .logo {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            margin-right: 200px;
+        }
+    }
+} 
+
+.bWhite {
+    height: 100px;
+}
+.bgWhite__text{ 
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+}
+.bgWhite__img {
+        width: 50px;
+        height: 50px;
+    }
+.bgBlack{
+    height: 180px;
+    background-color: #333333;
+    }
